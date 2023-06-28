@@ -1,12 +1,9 @@
 # hackathon_deepLearning
 ## Le background
-C'est un exercice que j'ai résolu lorsque j'ai participé à Hackathon qui a eu lieu à Paris en février 2022.
+C'est un exercice que j'ai résolu lors de ma participation à un Hackathon qui s'est déroulé à Paris en février 2022.
 ## L'objectif
-L'objectif de cet exercice est de deviner le chiffre (label) qui appraît dans l'image. 
+L'objectif de cet exercice est de prédire le chiffre (label) qui apparaît dans l'image. 
 ## Le caractéristique de cet exercice
-Pour chaque index, on voit qu'il y a toujours la même image qui appraît soit à gauche soit à droite. 
-Donc on a remaqué que cette iamge est faite exprès afin de baisser le final accuracy.
-C'était évidemment la question qui a été posée pour cet exercice.
-On a enlvé cette image qui appraît pour chaque index afin de deviner le label correct.
+Pour chaque index, on constate que la même image apparaît toujours soit à gauche, soit à droite. Nous avons remarqué que cette image est intentionnellement présente pour réduire la précision finale (final accuracy). Évidemment, cette situation était le défi posé dans le cadre de cet exercice. Nous avons supprimé cette image qui apparaît pour chaque index afin de prédire correctement le label.
 ## Techniques utilisées
 Python, Pytorch, Réseaux de neurons, Sklearn, Matplotlib
